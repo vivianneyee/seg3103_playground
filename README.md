@@ -25,6 +25,7 @@ Numerator: exit
 
 Screenshot from terminal:
 
+![newmath_java_screenshot](https://user-images.githubusercontent.com/55165979/118371601-4ea56880-b57b-11eb-9f44-33df75c7cb24.png)
 
 ## JUnit
 I am working with JUnit5 (via Console standalone 1.7.1)
@@ -66,6 +67,7 @@ Test run finished after 80 ms
 
 Screenshot of the terminal:
 
+![junit_screenshot](https://user-images.githubusercontent.com/55165979/118371590-40574c80-b57b-11eb-8da0-4bce6e99de86.png)
 
 ## Elixir
 I am running Elixir 11.4 with Erlang 23
@@ -94,6 +96,7 @@ iex(1)> NewmathEx.div(25,5)
 
 Screenshot from terminal:
 
+![newmath_ex_screenshot](https://user-images.githubusercontent.com/55165979/118371612-5b29c100-b57b-11eb-9424-edb0c89ce5fc.png)
 
 ## ExUnit
 Compile exactly like Elixir `mix compile`
@@ -115,3 +118,6 @@ Randomized with seed 233474
 ```
 
 Screenshot of terminal:
+
+![exunit_screenshot](https://user-images.githubusercontent.com/55165979/118371607-55cc7680-b57b-11eb-99fa-7fcceec3b577.png)
+
