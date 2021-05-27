@@ -15,6 +15,6 @@ Test Case  | Expected Results               | Actual Results                | Ve
 ## Exercise 2
 Screenshots of the test results:
 
-![Screen Shot 2021-05-26 at 11 05 21 PM](https://user-images.githubusercontent.com/55165979/119759826-e86fee00-be76-11eb-824b-08ce51d71b5b.png)
+![Screen Shot 2021-05-27 at 7 12 15 PM](https://user-images.githubusercontent.com/55165979/119907959-7f908080-bf1f-11eb-8fa4-65d7151500b4.png)
 
-![Screen Shot 2021-05-26 at 11 05 27 PM](https://user-images.githubusercontent.com/55165979/119759830-e9a11b00-be76-11eb-9108-f3052f5443ea.png)
+![Screen Shot 2021-05-27 at 7 12 22 PM](https://user-images.githubusercontent.com/55165979/119907967-83240780-bf1f-11eb-82f4-6b30cdaff35d.png)
