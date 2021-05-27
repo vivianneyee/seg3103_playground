@@ -1,6 +1,7 @@
 ## Java
 I am running Java SE Developer Kit 16
-```java 16.0.1 2021-04-20
+```
+java 16.0.1 2021-04-20
 Java(TM) SE Runtime Environment (build 16.0.1+9-24)
 Java HotSpot(TM) 64-Bit Server VM (build 16.0.1+9-24, mixed mode, sharing)
 ```
@@ -16,7 +17,8 @@ java -cp ./dist Main
 ```
 
 An output of the running program:
-```Newmath (type 'exit' to exit program)
+```
+Newmath (type 'exit' to exit program)
 Numerator: 25
 Demoninator: 5
 25 / 5 = 5
@@ -41,7 +43,8 @@ java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --sc
 ```
 
 Output of the tests:
-```Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+```
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
 
 ╷
 ├─ JUnit Jupiter ✔
@@ -71,7 +74,8 @@ Screenshot of the terminal:
 
 ## Elixir
 I am running Elixir 11.4 with Erlang 23
-```elixir --version   
+```
+elixir --version   
 Erlang/OTP 23 [erts-11.2.2] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [hipe] [dtrace]
 
 Elixir 1.11.4 (compiled with Erlang/OTP 23)
@@ -88,7 +92,8 @@ iex -S mix
 ```
 
 Output of the running program:
-```iex(1)> NewmathEx.
+```
+iex(1)> NewmathEx.
 MixProject    div/2         
 iex(1)> NewmathEx.div(25,5)
 {:ok, 5.0}
@@ -107,7 +112,8 @@ mix test
 ```
 
 Output of the tests:
-```Compiling 1 file (.ex)
+```
+Compiling 1 file (.ex)
 Generated newmath_ex app
 ...
 
