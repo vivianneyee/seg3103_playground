@@ -76,7 +76,7 @@ public class Date {
 	 */
 	private void setYear(int year) {
 		if (year < 0) {
-			throw new IllegalArgumentException("year must be greater or equal to 0.");
+			throw new IllegalArgumentException("year must be greater than or equal to 0.");
 		}
 		this.year = year;
 	}
