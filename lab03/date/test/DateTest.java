@@ -176,5 +176,16 @@ class DateTest {
     );
   }
 
+  @Test
+  void toString_tc24() {
+    Date d = new Date(2021, 4, 13);
+    assertEquals(d.toString(), "2021/April/13");
+  }
+
+  @Test
+  void endOfMonth_tc25() {
+    Date d = new Date(2021, 2, 28);
+    assertEquals(d.nextDate(), new Date(2021, 3, 1));
+  }
 
 }
