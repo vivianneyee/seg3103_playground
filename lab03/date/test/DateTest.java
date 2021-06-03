@@ -188,4 +188,31 @@ class DateTest {
     assertEquals(d.nextDate(), new Date(2021, 3, 1));
   }
 
+  @Test
+  void equals_tc26() {
+    Date d = new Date(2021, 5, 4);
+    assertEquals(false, d.equals(1));
+  }
+
+  @Test
+  void equals_tc27() {
+    Date d1 = new Date(2021, 5, 4);
+    Date d2 = new Date(2021, 5, 5);
+    assertEquals(false, d1.equals(d2));
+  }
+
+  @Test
+  void equals_tc28() {
+    Date d1 = new Date(2021, 5, 4);
+    Date d2 = new Date(2021, 6, 4);
+    assertEquals(false, d1.equals(d2));
+  }
+
+  @Test
+  void equals_tc29() {
+    Date d1 = new Date(2021, 5, 4);
+    Date d2 = new Date(2022, 5, 4);
+    assertEquals(false, d1.equals(d2));
+  }
+
 }
