@@ -1,7 +1,20 @@
 
 public class Tic {
 
-  public String emptyBoard(int rows, int cols) {
+  private int rows, cols;
+
+  public Tic(int rows, int cols) {
+    this.rows = rows;
+    this.cols = cols;
+  }
+
+  public Tic() {
+    this.rows = 3;
+    this.cols = 3;
+  }
+
+  @Override
+  public String toString() {
     String board = "";
     for (int i = 0; i < rows; i++) {
       for (int j = 0; j < cols; j++) {
