@@ -11,7 +11,9 @@ public class Tic {
           board += "|_";
         }
       }
-      board += "\n";
+      if (i > 0) {
+        board += "\n";
+      }
     }
     return board;
   }
