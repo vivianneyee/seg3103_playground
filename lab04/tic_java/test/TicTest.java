@@ -82,4 +82,11 @@ class TicTest {
     assertEquals(12, t1.size());
     assertEquals(30, t2.size());
   }
+
+  @Test
+  void test_showPositions() {
+    Tic t = new Tic(3,4);
+    String e = "0|1|2|3\n4|5|6|7\n8|9|10|11";
+    assertEquals(e,t.showPositions());
+  }
 }
