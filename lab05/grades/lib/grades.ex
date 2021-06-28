@@ -12,5 +12,9 @@ defmodule Grades do
       possible_grades = ['A+', 'A', 'A-', 'B+', 'B', 'C+', 'C', 'D+', 'D', 'E', 'F', 'EIN']
       Enum.random(possible_grades)
     end
+
+    def percentage_grade(%{final: final, homework: homework, labs: labs, midterm: midterm}) do
+      random_grade = :rand.uniform(100)
+    end
   end
 end
