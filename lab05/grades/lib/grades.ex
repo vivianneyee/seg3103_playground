@@ -6,4 +6,11 @@ defmodule Grades do
   Contexts are also responsible for managing your data, regardless
   if it comes from the database, an external API or others.
   """
+
+  defmodule Calculator do
+    def letter_grade(%{final: final, homework: homework, labs: labs, midterm: midterm}) do
+      possible_grades = ['A+', 'A', 'A-', 'B+', 'B', 'C+', 'C', 'D+', 'D', 'E', 'F', 'EIN']
+      Enum.random(possible_grades)
+    end
+  end
 end
