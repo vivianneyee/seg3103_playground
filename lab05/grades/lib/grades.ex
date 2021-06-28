@@ -16,5 +16,9 @@ defmodule Grades do
     def percentage_grade(%{final: final, homework: homework, labs: labs, midterm: midterm}) do
       random_grade = :rand.uniform(100)
     end
+
+    def numeric_grade(%{final: final, homework: homework, labs: labs, midterm: midterm}) do
+      random_grade = :rand.uniform(10)
+    end
   end
 end
