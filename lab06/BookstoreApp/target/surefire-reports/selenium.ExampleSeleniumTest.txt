@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: selenium.ExampleSeleniumTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 7.824 s <<< FAILURE! - in selenium.ExampleSeleniumTest
+test1  Time elapsed: 3.517 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Viviannes-MacBook-Pro.local', ip: 'fe80:0:0:0:848:26ae:583a:c6a0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/83/1rwj543j5cd...}, goog:chromeOptions: {debuggerAddress: localhost:49772}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b6de7295b0aa8f545cb3e218aa22aab
+	at selenium.ExampleSeleniumTest.setUp(ExampleSeleniumTest.java:39)
+
+test2  Time elapsed: 2.096 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Viviannes-MacBook-Pro.local', ip: 'fe80:0:0:0:848:26ae:583a:c6a0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/83/1rwj543j5cd...}, goog:chromeOptions: {debuggerAddress: localhost:49809}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2db64fe49f91e53fc51adea26d2cfe64
+	at selenium.ExampleSeleniumTest.setUp(ExampleSeleniumTest.java:39)
+
+test3  Time elapsed: 2.183 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Viviannes-MacBook-Pro.local', ip: 'fe80:0:0:0:848:26ae:583a:c6a0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.4', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /var/folders/83/1rwj543j5cd...}, goog:chromeOptions: {debuggerAddress: localhost:49832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e3d521c907d47ff9d3310e1703f1018
+	at selenium.ExampleSeleniumTest.setUp(ExampleSeleniumTest.java:39)
+
