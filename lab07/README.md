@@ -6,6 +6,9 @@ Professor | Andrew Forward aforward@uottawa.ca
 TA | Henry Chen zchen229@uottawa.ca
 Team | Vivianne Yee 300118868
 
+# Bugs list before
+![bugs](https://user-images.githubusercontent.com/55165979/126683023-41cb68e5-38b1-4d5e-975b-10280d4d0df8.png)
+
 # Bug 1:
 Screenshot of Bug
 
@@ -56,7 +59,8 @@ Screenshot of bug
 
 Fix:
 
-![bug6-11fix](https://user-images.githubusercontent.com/55165979/126680971-29f65c7a-a980-4522-bc43-6b57b78f402d.png)
+![Screen Shot 2021-07-22 at 1 25 00 PM](https://user-images.githubusercontent.com/55165979/126682558-731a5424-9846-4d8c-a34b-085ddc77e04a.png)
+
 
 # Bug 12:
 Screenshot of bug
@@ -93,3 +97,8 @@ Screenshot of bug
 Fix:
 
 ![bug7fix](https://user-images.githubusercontent.com/55165979/126681157-809c6246-be53-421c-b43d-eca2a250fa36.png)
+
+# Bugs list after
+
+<img width="403" alt="Screen Shot 2021-07-22 at 1 30 16 PM" src="https://user-images.githubusercontent.com/55165979/126683004-f3141ee5-19a4-46ba-b72b-5f382e54e5ef.png">
+
